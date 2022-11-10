@@ -1,9 +1,9 @@
 import pygame as pg
-from constants import SCREEN_RES
 from circle import UnitCircle
+from constants import WIN_RES
 
 pg.init()
-screen = pg.display.set_mode(SCREEN_RES)
+screen = pg.display.set_mode(WIN_RES)
 pg.display.set_caption("Unit Circle")
 clock = pg.time.Clock()
 
@@ -27,3 +27,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
