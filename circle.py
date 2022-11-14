@@ -11,7 +11,7 @@ class UnitCircle:
         self.center = (WIDTH / 2, HEIGHT / 2)
 
     def update_degrees(self, dt):
-        self.degrees += 1 / dt
+        self.degrees += 1 * dt
         if self.degrees >= 360:
             self.degrees = 0
 
