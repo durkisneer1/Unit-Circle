@@ -13,7 +13,7 @@ circle = UnitCircle(screen)
 def main():
     run = True
     while run:
-        dt = clock.tick(60)
+        dt = clock.tick(60) / 1000
         events = pg.event.get()
         for ev in events:
             if ev.type == pg.QUIT or (ev.type == pg.KEYDOWN and ev.key == pg.K_ESCAPE):
